@@ -20,9 +20,6 @@
     "sourceType": "module"
   },
   "plugins": ["@typescript-eslint"],
-  "rules": {
-    "no-await-in-loop": "off"
-  },
   "settings": {
     "import/resolver": {
       "typescript": {}
