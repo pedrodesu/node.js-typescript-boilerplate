@@ -2,7 +2,7 @@
 
 > Quick boilerplate to start a node.js + typescript project, with Prettier and ESLint with Airbnb guide integrated and absolute paths fully working.
 
-Instructions:
+<h2>Instructions:</h2>
 
 - Clone the repository
 - Run
@@ -17,9 +17,11 @@ You should see '1' appear in the console, meaning everything worked!
 
 - Remove boilerplate code
 
-The code inside src is just for testing purposes. Since you already verified it is working, modify it as you wish.
+The code inside src/ is just for testing purposes. Since you already verified it is working, modify it as you wish.
 
-Scripts usage:
+> You might also want to populate package.json with custom values, or perhaps remove or change any integration
+
+<h2>Scripts usage:</h2>
 
 `start:dev`
 
