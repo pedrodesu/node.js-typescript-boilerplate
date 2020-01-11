@@ -26,7 +26,7 @@ You should see '1' appear in the console, meaning everything worked!
 
 The code inside src/ is just for testing purposes. Since you already verified it is working, modify it as you wish.
 
-> You might also want to populate package.json with custom values, or perhaps remove or change any integration
+> You might also want to populate package.json with custom values, or perhaps remove or change any integration.
 
 <h2>Scripts usage:</h2>
 
@@ -40,6 +40,6 @@ This script does not actually run the code, it will update every single package 
 
 `start:build`
 
-This script transpiles the whole TypeScript code inside of src/ to another folder, called build/, which will contain the vanilla JavaScript counterpart of the code you wrote. It will clean the folder build/ before if you have one, so, this folder will always have only the latest code you wrote. After transpiling, it will call `node` with some arguments and will attempt to run the plain JavaScript transpiled code, being this the most effective build for production.
+This script transpiles the whole TypeScript code inside of src/ to another folder, called build/, which will contain the vanilla JavaScript counterpart of the code you wrote. It will clean the folder build/ before if you have one, so, this folder will always have only the latest code you wrote. After transpiling, it will call `node` with some arguments and will attempt to run the plain JavaScript transpiled code, being this the most effective script for production.
 
 **You should not need to use any other scripts by default but these 3, the others are complementary, and make these ones actually work.**
