@@ -4,7 +4,14 @@
 
 <h2>Instructions:</h2>
 
-- Clone the repository
+- Clone the repository or run (node.js v8+)
+
+```
+npx degit hSel3triK/node.js-typescript-boilerplate project-name
+```
+
+- Enter the project folder
+
 - Run
 
 ```
