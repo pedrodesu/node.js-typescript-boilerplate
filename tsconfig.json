@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "build",
+    "baseUrl": "src",
+    "removeComments": true,
+    "paths": {
+      "@b": ["b"]
+    }
+  }
+}
