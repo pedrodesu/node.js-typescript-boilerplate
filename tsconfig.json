@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "target": "ES6",
+    "target": "esnext",
     "outDir": "build",
     "baseUrl": "src",
     "removeComments": true,
