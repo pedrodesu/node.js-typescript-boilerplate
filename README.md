@@ -1,8 +1,10 @@
 # node.js-typescript-boilerplate
 
-> Quick boilerplate to start a node.js + typescript project, with Prettier and ESLint with Airbnb guide integrated and absolute paths fully working.
+## Quick boilerplate to start a node.js project with TypeScript, Prettier and ESLint (with Airbnb guide integrated) and absolute paths fully working.
 
-<h2>Instructions:</h2>
+---
+
+## Instructions
 
 - Clone the repository or run (node.js v8+)
 
@@ -28,7 +30,9 @@ The code inside src/ is just for testing purposes. Since you already verified it
 
 > You might also want to populate package.json with custom values, or perhaps remove or change any integration.
 
-<h2>Scripts usage:</h2>
+---
+
+## Scripts usage
 
 `start:dev`
 
@@ -43,3 +47,27 @@ This script does not actually run the code, it will update every single package 
 This script transpiles the whole TypeScript code inside of src/ to another folder, called build/, which will contain the vanilla JavaScript counterpart of the code you wrote. It will clean the folder build/ before if you have one, so, this folder will always have only the latest code you wrote. After transpiling, it will call `node` with some arguments and will attempt to run the plain JavaScript transpiled code, being this the most effective script for production.
 
 **You should not need to use any other scripts by default but these 3, the others are complementary, and make these ones actually work.**
+
+---
+
+## Integrations
+
+Since this repository has inside of it included the libraries [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/), I would recommend you to install the official extensions of these libraries for your desired text editor / IDE, in case they have one. It will make editing much more easier and in a way more integrated way.
+
+I wil leave a link for these extensions in some popular text editors and IDEs
+
+### ESLint
+
+- [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+
+- [Atom](https://atom.io/packages/eslint)
+
+- [WebStorm](https://www.jetbrains.com/help/webstorm/eslint.html)
+
+### Prettier
+
+- [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+
+- [Atom](https://atom.io/packages/prettier-atom)
+
+- [WebStorm](https://www.jetbrains.com/help/webstorm/prettier.html)
