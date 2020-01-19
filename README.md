@@ -9,7 +9,7 @@
 - Clone the repository or run (node.js v8+)
 
 ```
-npx degit hSel3triK/node.js-typescript-boilerplate project-name
+git clone https://github.com/hSel3triK/node.js-typescript-boilerplate.git project-name
 ```
 
 - Enter the project folder
@@ -54,7 +54,7 @@ This script transpiles the whole TypeScript code inside of src/ to another folde
 
 Since this repository has inside of it included the libraries [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/), I would recommend you to install the official extensions of these libraries for your desired text editor / IDE, in case they have one. It will make editing much more easier and in a way more integrated way.
 
-I wil leave a link for these extensions in some popular text editors and IDEs
+I will leave links for these extensions in some popular text editors and IDEs:
 
 ### ESLint
 
