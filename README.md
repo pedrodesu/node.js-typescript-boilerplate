@@ -52,7 +52,7 @@ This script transpiles the whole TypeScript code inside of src/ to another folde
 
 ## Integrations
 
-Since this repository has inside of it included the libraries [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/), I would recommend you to install the official extensions of these libraries for your desired text editor / IDE, in case they have one. It will make editing much more easier and in a way more integrated way.
+Since this repository has inside of it included the libraries [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/), I would recommend you to install the official extensions of these libraries for your desired text editor / IDE, in case they have one. It will make editing much easier and in a way more integrated way.
 
 I will leave links for these extensions in some popular text editors and IDEs:
 
