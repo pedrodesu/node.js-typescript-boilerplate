@@ -4,12 +4,12 @@
 
 ---
 
-## Instructions
+## Initial setup
 
-- Clone the repository or run (node.js v8+)
+- Clone the repository or run
 
 ```
-git clone https://github.com/hSel3triK/node.js-typescript-boilerplate.git project-name
+git clone https://github.com/hSel3triK/node.js-typescript-boilerplate.git project-name # node.js v8+
 ```
 
 - Enter the project folder
@@ -17,18 +17,20 @@ git clone https://github.com/hSel3triK/node.js-typescript-boilerplate.git projec
 - Run
 
 ```
-npm i
-npm run start:update
-npm run start:dev
+npm i # Install initial packages
+npm run update # Update packages using pre-installed packages (npm-check-updates)
+npm run start:dev # Run the project in development mode
 ```
 
-You should see '1' appear in the console, meaning everything worked!
+You should see 'It is working.' appear in the console, meaning everything worked!
 
 - Remove boilerplate code
 
 The code inside src/ is just for testing purposes. Since you already verified it is working, modify it as you wish.
+You can use `npm run clean` to wipe out the src folder, for a fresh project.
+You might also want to populate package.json with custom values, or perhaps remove or change any integration.
 
-> You might also want to populate package.json with custom values, or perhaps remove or change any integration.
+> Keep in mind that for the project to work, you need a main file inside the src folder, called index.ts (changeable in package.json)
 
 ---
 
@@ -36,25 +38,31 @@ The code inside src/ is just for testing purposes. Since you already verified it
 
 `start:dev`
 
-This script is probably the one that is going to be used the most, and, by running it, it will run the TypeScript code inside src/ directly, with `ts-node-dev`.
+This script is probably the one that is going to be used the most. It will run the TypeScript code inside src/ directly, with `ts-node-dev`. This script reloads as you modify and save your code and does not run JavaScript code directly, so it is good to be used for development and testing matters, in your localhost.
 
-`start:update`
+`start:production`
 
-This script does not actually run the code, it will update every single package of package.json, and will reinstall them, with the most updated versions of them. Should be run periodically.
+This script will call `node` with some arguments and will attempt to run the plain JavaScript transpiled code, being this the most effective script for production matters.
 
-`start:build`
+`update`
 
-This script transpiles the whole TypeScript code inside of src/ to another folder, called build/, which will contain the vanilla JavaScript counterpart of the code you wrote. It will clean the folder build/ before if you have one, so, this folder will always have only the latest code you wrote. After transpiling, it will call `node` with some arguments and will attempt to run the plain JavaScript transpiled code, being this the most effective script for production.
+This script will update every single package of package.json, and will reinstall them, with the most updated versions of them. Should be run periodically.
 
-**You should not need to use any other scripts by default but these 3, the others are complementary, and make these ones actually work.**
+`build`
+
+This script transpiles the whole TypeScript code inside of src/ to another folder, called build/, which will contain the vanilla JavaScript counterpart of the code you wrote.
+
+`clean`
+
+This script will not be run quite often. It will delete everything inside the src/ folder, being the best way to start with a new, fresh project, removing the old code. Could be run to remove the template code that comes with the boilerplate.
 
 ---
 
 ## Integrations
 
-Since this repository has inside of it included the libraries [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/), I would recommend you to install the official extensions of these libraries for your desired text editor / IDE, in case they have one. It will make editing much easier and in a way more integrated way.
+Since this repository includes libraries and integrations ([ESLint](https://eslint.org/) and [Prettier](https://prettier.io/)), I would recommend you to install the official extensions of these libraries for your desired text editor / IDE, if they have one. It will make editing much easier and in a much more integrated way.
 
-I will leave links for these extensions in some popular text editors and IDEs:
+Links for these extensions in some popular text editors and IDEs:
 
 ### ESLint
 

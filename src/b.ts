@@ -1,1 +1,3 @@
-export default (): void => console.log(1);
+// TEMPLATE CODE, CAN AND SHOULD BE REMOVED
+
+export default (): void => console.log('It is working.');
